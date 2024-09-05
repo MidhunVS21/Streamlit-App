@@ -7,7 +7,7 @@ import tempfile
 from ultralytics import YOLO
 
 # Initialize YOLO model
-model = YOLO('./bestTrained.pt')
+model = YOLO('./FinalTrained.pt')
 
 def get_image_download_link(img, filename, text):
     buffered = io.BytesIO()
